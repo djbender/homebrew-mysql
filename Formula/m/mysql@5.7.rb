@@ -22,9 +22,9 @@ class MysqlAT57 < Formula
   # disable! date: "2024-08-01", because: :unsupported
 
   depends_on "cmake" => :build
+  depends_on "djbender/homebrew-mysql/openssl@1.1"
   depends_on "libevent"
   depends_on "lz4"
-  depends_on "djbender/homebrew-mysql/openssl@1.1"
   depends_on "protobuf"
 
   uses_from_macos "curl"
