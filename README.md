@@ -1,4 +1,4 @@
-# Djbender Mysql
+# mysql@5.7
 
 ## How do I install these formulae?
 
